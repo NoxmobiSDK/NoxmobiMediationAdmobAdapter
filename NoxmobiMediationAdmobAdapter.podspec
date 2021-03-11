@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationAdmobAdapter"
-  spec.version      = "7.69.0.0" # Mark
+  spec.version      = "8.1.0.0" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for Admob."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationAdmobAdapter"
   spec.license      = "MIT"
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'NoxmobiMediationAdmobAdapter.framework'
   spec.requires_arc = true
 
-  spec.dependency "Google-Mobile-Ads-SDK", "7.69.0"
+  spec.dependency "Google-Mobile-Ads-SDK", "8.1.0"
 
 end
